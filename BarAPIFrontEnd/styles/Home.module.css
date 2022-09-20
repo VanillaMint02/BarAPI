@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  align-items: flex-end;
+  column-gap: 0.25rem;
+  flex-direction: column;
+  background-color: black;
+}
+.leftside {
+  position: absolute;
+  left: 0px;
+  top: 100px;
+
+  column-gap: 0.25rem;
+  flex-direction: row;
+  background-color: black;
+  display: block;
+}
+.login {
+  background-color: black;
+  color: gold;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 5px 20px;
+  font-family: "Beyond-Wonderland", "sans-serif";
+  align-self: flex-end;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.formleft {
+  display: flex-start;
+  flex-direction: row;
+  width: 200px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+.title > p {
+  margin: 0;
+}
+.title {
+  font-family: "Beyond-Wonderland";
+  text-align: center;
+  color: gold;
+  font-size: 50px;
+  background-color: black;
+  height: 60px;
+}
+.loginregisterform {
+  flex-direction: row;
+}
+.background {
+  background-color: black;
+  min-height: 100vh;
+  position: relative;
+}
+.center {
+  background-color: black;
+  position: absolute;
+  height: 450px;
+  max-height:1500px;
+  width: 1100px;
+  top: 50%; /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+  color: gold;
+  transform: translate(-50%, -50%);
+  font-family: "Beyond-Wonderland";
+  font-size:30px;
+}
+.formbutton {
+  font-family: "Beyond-Wonderland";
+  text-align: center;
+  color: gold;
+  background-color: black;
+}
+
+.formleft > p {
+  font-size: 30px;
+  font-family: "Beyond-Wonderland";
+  text-align: center;
+  color: gold;
+  background-color: black;
+}
+.loginregisterform > p {
+  font-size: 30px;
+
+  font-family: "Beyond-Wonderland";
+  text-align: center;
+  color: gold;
+  background-color: black;
+}
+
+.rightside {
+  position: absolute;
+  right: 10px;
+  bottom: 270px;
+  column-gap: 0.25rem;
+  flex-direction: column;
+  background-color: black;
+  display: block;
+}
+.rightside > p {
+  font-size: 30px;
+  font-family: "Beyond-Wonderland";
+  text-align: center;
+  color: gold;
+  background-color: black;
+}
+.formright {
+  display: flex-end;
+  flex-direction: row;
+  width: 200px;
+  margin-right: auto;
+  margin-left: 0px;
+}
